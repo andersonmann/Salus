@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Salus</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Batata</string>
+    <string name="title_activity_map">Map</string>
+</resources>
