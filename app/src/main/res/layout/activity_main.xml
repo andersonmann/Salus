@@ -21,7 +21,7 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Especialidades"
+        android:text="@string/button_specialties"
         android:id="@+id/button2"
         android:minWidth="200dp"
         android:backgroundTint="#20BCD2"
@@ -32,7 +32,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mapa"
+        android:text="@string/button_map"
         android:id="@+id/button3"
         android:minWidth="200dp"
         android:backgroundTint="#20BCD2"
