@@ -1,8 +1,8 @@
 package com.example.uaite.salus;
 
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.content.Intent;
@@ -14,6 +14,9 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
     }
 
@@ -41,6 +44,11 @@ public class MainActivity extends ActionBarActivity {
 
     public void onMapButtonClick(View view) {
         Intent intent = new Intent(this, MapActivity.class);
+        startActivity(intent);
+    }
+
+    public void onSpecialtiesButtonClick(View view) {
+        Intent intent = new Intent(this, SpecialtyListActivity.class);
         startActivity(intent);
     }
 }

@@ -3,7 +3,10 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Batata</string>
+
     <string name="title_activity_map">Map</string>
+    <string name="title_activity_specialty_list">Especialidades</string>
+
     <string name="button_specialties">Especialidades</string>
     <string name="button_map">Mapa</string>
 
